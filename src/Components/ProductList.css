@@ -1,0 +1,45 @@
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin-top: 20px;
+  }
+  
+  .product-item {
+    display: grid;
+    grid-template-columns: 1fr auto auto; 
+    align-items: center; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .product-name {
+    font-weight: bold;
+  }
+  
+  .product-price {
+    color: #555;
+    margin-left: 150px;
+    text-align: right; 
+  }
+  
+  .delete-btn {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .delete-btn:hover {
+    color: red; 
+    background: none; 
+  }
+  
+  .delete-btn:focus {
+    outline: none; 
+  }
+  
